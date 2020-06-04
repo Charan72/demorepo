@@ -1,0 +1,19 @@
+<mvc:View controllerName="map.mapnew.controller.View1" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m">
+	<App id="idAppControl">
+		<pages>
+			<Page title="Current Location Using Google Map">
+				<content>
+				<!--	<Label text="Latitude" labelFor="input-c"/>
+					<Input id="input1" value=""/>
+					<Label text="Longitude" labelFor="input-c"/>
+					<Input id="input2" value=""/>-->
+					<Button id="btn1" press="get" text="Get Current Position" />
+					<VBox fitContainer="true" justifyContent="Center" alignItems="Center">
+						<HBox id="map_canvas" fitContainer="true" justifyContent="Center" alignItems="Center"/>
+					</VBox>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
